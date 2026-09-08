@@ -63,6 +63,16 @@ p {
     color: #333;
 }
 
+.clearfix::before,
+.clearfix::after {
+    content: "";
+    display: table;
+}
+.clearfix::after {
+    clear: both;
+}
+
+
 .container {
     max-width: 1140px;
     margin: auto;
@@ -149,4 +159,33 @@ p {
     width: 50%;
     min-height: 100%;
     background: url(../img/photo-1.jpg) no-repeat center center / cover;
+}
+#home-info .info-content {
+    float: right;
+    width: 50%;
+    height: 100%;
+    text-align: center;
+    padding: 70px 90px;
+    overflow: hidden;
+}
+#home-info .info-content p {
+    margin-bottom: 30px;
+}
+
+/* Features */
+.box {
+    float: left;
+    width: 33.333%;
+    text-align: center;
+    padding: 50px;
+}
+.box i {
+    margin-bottom: 20px;
+}
+
+/* Footer */
+#main-footer {
+    text-align: center;
+    padding: 15px;
+    font-size: 15px;
 }

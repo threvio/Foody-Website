@@ -4,6 +4,7 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Foody</title>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/7.3.1/css/all.css" integrity="sha512-x9WwyMYBnlXMNQ6kQ/Lyzu1NqIhLQKL5Oq6xByfXuRj7s9CskyCbLv/1IjqzJmXwFXWr0ov6jBV7Qbc0hh9nHg==" crossorigin="anonymous" referrerpolicy="no-referrer">
     <link rel="stylesheet" href="css/main.css">
 </head>
 
@@ -11,10 +12,10 @@
     <header>
         <nav id="navbar">
             <div class="container">
-                <h1 class="logo">FOODY</h1>
+                <h1 class="logo"><a href="index.html">FOODY</a></h1>
                 <ul>
-                    <li><a href="#">Home</a></li>
-                    <li><a href="#">About</a></li>
+                    <li><a href="index.html" class="current">Home</a></li>
+                    <li><a href="pages/about.html">About</a></li>
                     <li><a href="#">Contact</a></li>
                 </ul>
             </div>
@@ -25,7 +26,7 @@
                 <div class="content">
                     <h1><span class="orange">Taste</span> the Difference</h1>
                     <p>Exceptional food, crafted with uncompromising quality. Join us at Foody for a dining experience that redefines everyday indulgence.</p>
-                    <a href="#" class="btn">Explore Foody</a>
+                    <a href="pages/about.html" class="btn">Explore Foody</a>
                 </div>
             </div>
         </div>
@@ -36,9 +37,31 @@
         <div class="info-content">
             <h2><span class="orange">The History</span> of our Foody</h2>
             <p>What started as a chef's dream to elevate the modern dining experience has blossomed into Foody. We pride ourselves on sourcing the finest ingredients directly from local artisans, crafting seasonal menus that celebrate both the rich heritage of fine dining and bold, contemporary ideas.</p>
-            <a href="#" class="btn btn-light">Read more...</a>
+            <a href="pages/about.html" class="btn btn-light">Read more...</a>
+        </div>
+    </section>
+
+    <section id="features" class="clearfix">
+        <div class="box bg-light">
+            <i class="fa-solid fa-hotel fa-3x"></i>
+            <h3>Great location</h3>
+            <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Sint, numquam?</p>
+        </div>
+        <div class="box bg-primary">
+            <i class="fa-solid fa-utensils fa-3x"></i>
+            <h3>Free meails</h3>
+            <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Sint, numquam?</p>
+        </div>
+        <div class="box bg-light">
+            <i class="fa-solid fa-clock fa-3x"></i>
+            <h3>00-24</h3>
+            <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Sint, numquam?</p>
         </div>
     </section>
     
+    <footer id="main-footer" class="bg-dark">
+        <small>Foody &copy; 2026 &reg; All Rights Reserved</small>
+    </footer>
+
 </body>
 </html>
